@@ -1,0 +1,37 @@
+{
+  "name": "nnstats-cli",
+  "version": "0.0.1",
+  "description": "Commandline app for nnstats",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+  },
+  "bin": {
+    "nnstats": "index.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": "Knapsack-lab/nnstats-cli",
+  "author": {
+    "name": "nghiattran",
+    "email": "nghiattran3@gmail.com",
+    "url": "nghiattran.com"
+  },
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "nnstats": "0.0.5"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.2",
+    "istanbul": "0.3.14",
+    "mocha": "2.2.5",
+    "mocha-lcov-reporter": "0.0.2"
+  }
+}

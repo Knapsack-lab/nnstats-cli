@@ -1,7 +1,7 @@
 {
   "name": "nnstats-cli",
   "version": "0.0.1",
-  "description": "Commandline app for nnstats",
+  "description": "Commandline interface for nnstats.",
   "main": "index.js",
   "scripts": {
     "test": "mocha",

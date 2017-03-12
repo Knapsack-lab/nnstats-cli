@@ -1,6 +1,6 @@
 {
   "name": "nnstats-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Commandline interface for nnstats.",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "homepage": "",
   "dependencies": {
     "commander": "^2.9.0",
-    "nnstats": "0.0.5"
+    "nnstats": "*"
   },
   "devDependencies": {
     "coveralls": "2.11.2",

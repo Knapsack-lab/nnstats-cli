@@ -2,7 +2,7 @@
 
 > Commandline interface for nnstats.
 
-[![NPM version][npm-image]][npm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url] 
 
 ## Installation
 
